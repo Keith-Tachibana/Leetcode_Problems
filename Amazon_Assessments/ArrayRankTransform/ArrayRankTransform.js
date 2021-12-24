@@ -54,4 +54,4 @@ var arrayRankTransform = function (arr) {
   return arr;
 };
 
-console.log(arrayRankTransform([30534, 22, 4, 71, 12, 8, 633, 55, 798]));
+console.log(arrayRankTransform([30534, 22, 4, 71, 12, 8, 633, 55, 798])); // Should return: [9, 4, 1, 6, 3, 2, 7, 5, 8]
