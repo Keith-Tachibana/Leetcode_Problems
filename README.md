@@ -1,29 +1,6 @@
-# README #
+# LeetCode Problems #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This repository features select problems and solutions from LeetCode. They are the most accurate representation to the actual coding assessments and whiteboard problems you are likely to encounter while interviewing at one of the FAANG (Facebook, Amazon, Apple, Netflix, Google) companies. I will try to summarize all the problems completed thus far on this page in order to better help you verify if a problem you are looking for has already been solved.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Amazon Online Assessments ###
+* ArrayRankTransform
