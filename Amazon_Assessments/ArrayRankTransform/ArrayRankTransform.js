@@ -36,7 +36,7 @@
  * @param {number[]} arr
  * @return {number[]}
  */
-var arrayRankTransform = function (arr) {
+const arrayRankTransform = function (arr) {
   const arrCopy = Array.from(arr).sort((a, b) => a - b);
   const rankObj = {};
   let rank = 1;
