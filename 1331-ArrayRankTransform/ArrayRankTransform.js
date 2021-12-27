@@ -55,3 +55,13 @@ const arrayRankTransform = function (arr) {
 };
 
 console.log(arrayRankTransform([30534, 22, 4, 71, 12, 8, 633, 55, 798])); // Should return: [9, 4, 1, 6, 3, 2, 7, 5, 8]
+
+/**
+ * Trick: we will use 2 for loops - the first one uses a copy of the input array that
+ * has been pre-sorted from smallest to largest, and we use a corresponding hash map
+ * whose values are equal to the rank and whose keys are the elements of the input
+ * array. This represents the correct ranking already, but we need to return it in the
+ * original order the elements were in, so we use a second for loop and update the
+ * value of each element in the original input array with its value from the hash map
+ * that represents its correct rank.
+ */
